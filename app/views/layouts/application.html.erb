@@ -7,8 +7,29 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
+  <div id="sidebar">
+    <div id="logo">
+      <%= link_to root_path do %>
+      <% end %>
+    </div>
+    <ul>
+      <li class="category">BERRY_RED WEBSITE</li>
+      <li><%= link_to "Berry BLOG", root_path %></li>
+      <li>GALLERY</li>
+    </ul>
+
+    <ul>
+      <li class="category">Social</li>
+      <li><a href="https://vk.com/barbaralovelafrance">VK.com</a></li>
+      <li><a href="https://www.instagram.com/berry_redberry/">Instagram</a></li>
+      <li><a href="https://github.com/BerryRed">Github</a></li>
+      <li><a href="mailto:berry_rednes@mail.ru">Email</a></li>
+
+    </ul>
+  </div>
+
     <%= yield %>
+
   </body>
 </html>
