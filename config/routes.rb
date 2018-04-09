@@ -5,5 +5,7 @@
   end
 
   root "posts#index"
-end
+
+   get '/about', to: 'pages#/about'
+ end
 

@@ -16,8 +16,8 @@
     <ul>
       <li class="category">BERRY_RED WEBSITE</li>
       <li><%= link_to "Berry BLOG", root_path %></li>
-      <li>GALLERY</li>
-    </ul>
+      <li><%= link_to "About", about_path %></li>
+     </ul>
 
     <%= image_tag("Berry.ico") %>
 
@@ -36,7 +36,7 @@
     <div id="header">
       <p>All posts</p>
 
-      <div class="buttons"
+      <div class="buttons">
            <button class="button"><%= link_to "New Post", new_post_path %></button>
       <button class="button">Log Out</button>
     </div>
