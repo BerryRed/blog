@@ -1,24 +1,27 @@
-# README
+# How to deploy this app to Heroku
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+heroku auth:token
+```
 
-Things you may want to cover:
+copy key
 
-* Ruby version
+```
+heroku run rake db:migrate
+```
 
-* System dependencies
+skip username
 
-* Configuration
+past key
 
-* Database creation
+enter
 
-* Database initialization
+```
+heroku run rake db:migrate
+```
 
-* How to run the test suite
+open your app in browser
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+heroku open
+```
