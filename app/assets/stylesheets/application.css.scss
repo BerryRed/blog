@@ -39,16 +39,16 @@
        font-weight: 700;
        font-size: 0.7em;
        text-transform: uppercase;
-       color: darkred;
+       color: #fffef8;
      }
      li {
        padding: .5em 0;
        a {
-         color: #b7141a;
+         color: #f99285;
          text-decoration: none;
          transition: all .4s ease;
          &:hover {
-           color: #b7141a;
+           color: #f9e2f4;
          }
        }
      }
